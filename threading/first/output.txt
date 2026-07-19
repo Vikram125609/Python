@@ -1,0 +1,35 @@
+Inside fetch function for item_id: 0
+Inside fetch function for item_id: 1
+Inside fetch function for item_id: 2
+Inside fetch function for item_id: 3
+Inside fetch function for item_id: 4
+Inside fetch function for item_id: 5
+Inside fetch function for item_id: 6
+Inside fetch function for item_id: 7
+Inside fetch function for item_id: 8
+Inside fetch function for item_id: 9
+This is printed while the threads are running.
+Results so far: {}
+Lock acquired for item_id: 7
+Lock released for item_id: 7
+Lock acquired for item_id: 8
+Lock released for item_id: 8
+Lock acquired for item_id: 3
+Lock released for item_id: 3
+Lock acquired for item_id: 4
+Lock released for item_id: 4
+Lock acquired for item_id: 6
+Lock released for item_id: 6
+Lock acquired for item_id: 0
+Lock released for item_id: 0
+Lock acquired for item_id: 9
+Lock released for item_id: 9
+Lock acquired for item_id: 2
+Lock released for item_id: 2
+Lock acquired for item_id: 5
+Lock released for item_id: 5
+Lock acquired for item_id: 1
+Lock released for item_id: 1
+Total Time 2.006711959838867
+This is printed after the threads have completed.
+Results: {7: 70, 8: 80, 3: 30, 4: 40, 6: 60, 0: 0, 9: 90, 2: 20, 5: 50, 1: 10}
